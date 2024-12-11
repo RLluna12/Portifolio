@@ -1,6 +1,3 @@
-
-import { projetos } from "./projetos.js";
-
 const navigation = document.querySelector("#navigation");
 const backToTopButton = document.querySelector("#backToTopButton");
 const toggle = document.querySelector("#sw-checkbox");
@@ -11,17 +8,6 @@ const notebook_2 = document.querySelector("#notebook-2");
 const notebook_2_white = document.querySelector("#notebook-2-white");
 const vidro = document.querySelector("#vidro");
 
-window.addEventListener("load", function begin() {
-  projetos(projectsSection);
-  const desafioBtn = document.querySelector("#desafio");
-
-  desafioBtn.addEventListener("click", () => {
-    desafios(projectsSection);
-    document
-      .querySelector("#backToProjectsBtn")
-      .addEventListener("click", begin);
-  });
-});
 
 window.addEventListener("scroll", onScroll);
 onScroll();
@@ -124,6 +110,10 @@ ScrollReveal({
   #contact header`
 );
 
+
+
 toggle.addEventListener("change", () => {
-  document.body.classList.toggle("light-mode");
+  const isChecked = toggle.checked;
+  console.log("Checkbox state: ", isChecked);
+  document.body.classList.toggle("light-mode", isChecked);
 });
