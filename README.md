@@ -1,8 +1,9 @@
 <h1 align="center">Portifólio - Lucas 💻</h1>
+<div align="center">
+  <img src="https://github.com/RLluna12/Portifolio/blob/main/assets/images/Captura%20de%20tela.png" width="700px" alt="Imagem do portfólio" />
+</div>
 
-![Imagem do projeto finalizado](assets/images/Captura de tela.png)
-
-<h4 align="center"><a href="https://lucyanovidio.vercel.app">Confira o projeto aqui</a></h4>
+<h4 align="center"><a href="https://portifolio-lucasluna.netlify.app/">Confira o projeto aqui</a></h4>
 
 ---
 
@@ -36,21 +37,17 @@ Neste projeto apliquei os seguintes pontos:
 + Pontos de acessibilidade;
 + Responsividade;
 + Mobile first;
-+ Utilização da lib JS <a href="https://scrollrevealjs.org">Scroll Reveal</a>.
 
 ---
 
 <table>
   <tr>
     <td>
-      <img src="https://github.com/lucyanovidio.png" width="100px" />
+      <img src="https://github.com/RLluna12/Portifolio/blob/main/assets/images/Lucas-imagem.png" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/lucyanovidio">Lucyan Ovídio.</a> 🙋🏿‍♂️
+      Feito por <a href="https://github.com/RLluna12">Lucas Luna.</a> 
     </td>
   </tr>
 </table>
 
-## 🏆 Licença
-
-The [MIT License](./LICENSE).
